@@ -1,4 +1,4 @@
-Código producto,Nombre del artículo,Cantidad,Precio individual,ventas x art,Ganancias x art,Nombre del vendedor (a),Cantidad de artículos vendidos,Comisión,comision total
+    Código producto,Nombre del artículo,Cantidad,Precio individual,ventas x art,Ganancias x art,Nombre del vendedor (a),Cantidad de artículos vendidos,Comisión,comision total
 LIB123,Libretas,30,$20.00,15,$300.00,José Antonio Rivera Pérez,87.0,5%,$42.60
 GOM123,Gomas,20,$6.00,12,$72.00,Mariana Rodríguez Torres,115.0,5%,$31.00
 LAPN123,Lapiceros negros,25,$8.00,20,$160.00,María del Rayo López,62.0,5%,$32.55

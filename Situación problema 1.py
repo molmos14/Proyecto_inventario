@@ -10,7 +10,7 @@ def main():
             if num == 1:                
                 registrar_ventas(df)
             elif num == 2:
-                artículos_nuevos(df)
+                articulos_nuevos(df)
             elif num == 3:
                 datos_inventario(df)
             elif num == 4:
@@ -80,13 +80,24 @@ def registrar_ventas(df):
             df.to_csv('/home/m0lm0s/Descargas/inventario1.csv', index=False)
         except KeyError:
             pass   
-        print(f'\n{df.iloc[15:20,:5]}') 
-    return
+        print(f'\n{df.iloc[15:20,:5]}')
 
 def datos_inventario(df):
     print(df)
 
-
+def articulos_nuevos(df):
+    nombre = input('Dame el nombre del articulo que deseas agregar: ')
+    cantidad = input('Dame la cantidad del articulo que agregaste: ')
+    precio = input('Dame el precio individual del articulo: ')
+    codigo = input('Dame el codigo de identificacion del articulo: ')
+    df = df.append({
+        'Código producto': codigo,
+        'Nombre del artículo': nombre,
+        'Cantidad': cantidad,
+        'Precio individual': precio,
+        'ventas x art': 0
+        }, ignore_index=True)
+    df.to_csv('/home/m0lm0s/Descargas/inventario1.csv', index=None)
     return df
 
 if __name__ == '__main__':
