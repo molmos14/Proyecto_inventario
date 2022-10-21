@@ -1,0 +1,21 @@
+Código producto,Nombre del artículo,Cantidad,Precio individual,ventas x art,Ganancias x art,Nombre del vendedor (a),Cantidad de artículos vendidos,Comisión,comision total
+LIB123,Libretas,30,$20.00,15,$300.00,José Antonio Rivera Pérez,87.0,5%,$42.60
+GOM123,Gomas,20,$6.00,12,$72.00,Mariana Rodríguez Torres,115.0,5%,$31.00
+LAPN123,Lapiceros negros,25,$8.00,20,$160.00,María del Rayo López,62.0,5%,$32.55
+LAPR123,Lapiceros rojos,25,$8.00,3,$160.00,Arturo Cepeda Lozano ,97.0,5%,$51.50
+LAPA123,Lapiceros azules,25,$8.00,23,$160.00,,,,
+SAC123,Sacapuntas,20,$5.00,8,$40.00,,,,
+LAP123,Lápices ,25,$8.00,20,$160.00,,,,
+MAR123,Marcatextos,20,$10.00,19,$120.00,,,,
+HOB123,Hojas blancas,100,$2.00,60,$120.00,,,,
+PIVI123,Pinturas Vinci,50,$12.00,15,$180.00,,,,
+LAAD123,Lápices adhesivos,20,$15.00,10,$150.00,,,,
+CIA123,Cintas adhesivas,20,$20.00,15,$300.00,,,,
+PAB123,Papel bond,15,$3.00,12,$36.00,,,,
+CAR123,Cartulinas ,20,$3.00,15,$45.00,,,,
+TIJ123,Tijeras,20,$12.00,10,$120.00,,,,
+REG123,Reglas,20,$10.00,12,$120.00,,,,
+CAC123,Calculadoras científicas,25,$30.00,15,$450.00,,,,
+SOL123,Solicitudes de trabajo,50,$10.00,25,$250.00,,,,
+PLU123,Plumones para pizarrón (color negro),30,$8.00,20,$160.00,,,,
+MON123,Monografías,50,$2.00,27,$50.00,,,,
